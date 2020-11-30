@@ -1,4 +1,4 @@
-import a
+import hashFile
 import argparse
 
 def main():
@@ -13,8 +13,8 @@ def main():
     filePath = params.path
     hashAlgorithm = params.hashAlg
     
-    a.hash(filePath, hashAlgorithm)
+    hashFile.hash(filePath, hashAlgorithm)
            
 if __name__ == '__main__':
-    main = main()    
+    main = main()
     
