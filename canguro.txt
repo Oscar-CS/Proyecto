@@ -1,24 +1,6 @@
 Algorithm: SHA256
-+-------------------------+------------------------------------------------------------------+
-|           FILE          |                               HASH                               |
-+-------------------------+------------------------------------------------------------------+
-| C:\Users\01ere\Desktop\ | 6737bc8210b1fc703c9ce6dff6f7c2b036ccbaac825a907c68847f370a5ad1d5 |
-| C:\Users\01ere\Desktop\ | 247a8174ec0c61e4f6c2f0299b27648c9ef3dc8482f7083d01c8a389976a6a76 |
-| C:\Users\01ere\Desktop\ | 4cc007fae27ca9a3bd8c37fa97c043306f230d7ee32b497afaaf2de4d9858713 |
-| C:\Users\01ere\Desktop\ | f13dbd1ccb62e9262979f2763488d6be8882507c5fee47a45c64981005ec2289 |
-| C:\Users\01ere\Desktop\ | 9b32fa052c457079c7f440d52dd85caedf9267c09a2fac144ba1b6e83be20616 |
-| C:\Users\01ere\Desktop\ | ca1cea2544a2e74988d33b3492045091be824bb72cdc1955c1db9f6d168a6d4d |
-| C:\Users\01ere\Desktop\ | 875afad8e84f751dde0c16e953294eb5a3d2412ca4fdfe569fa0bdb8bd2e11db |
-| C:\Users\01ere\Desktop\ | d45b9cbd64f6b8808918c242fa62171ee5b6e1328db90395bf4d62929069ff19 |
-| C:\Users\01ere\Desktop\ | 1c11caad67f8ee412479c427b75772eaa95abd8b433294ba002909038bdfc6aa |
-| C:\Users\01ere\Desktop\ | 8a6172e21a8758f7768bc353ffdbdb0b4daa4180ee5c82077de9ead26980ee61 |
-| C:\Users\01ere\Desktop\ | c35b21d6ca39aa7cc3b79a705d989f1a6e88b99ab43988d74048799e3db926a3 |
-| C:\Users\01ere\Desktop\ | 9ed21c71e80ac3d0fda5a8223c6e0c94df76b50e16acdb90a181c28a9972be95 |
-| C:\Users\01ere\Desktop\ | 770bcf89ab0607c53144bd3636c34a2e9d3f056ab10e4acb81c5af18b9d8d613 |
-| C:\Users\01ere\Desktop\ | 69ad830ce7a841b388155003b5a5b2e6258f1184a2ab6abe20ecb086ec461700 |
-| C:\Users\01ere\Desktop\ | b463c7fca0bc98582ce776b6e3fe4bda42df01a4fd2d324fca4709444b4aac14 |
-| C:\Users\01ere\Desktop\ | 43aca3a4623aba8556aa841cd94b2eecc753ee1f523cc1e505450f6e0ff9effb |
-| C:\Users\01ere\Desktop\ | b92e02dfbf28ad77aaee094fe3b27cea7a29533b0f0fb3499890bda6b7614029 |
-| C:\Users\01ere\Desktop\ | 738a2aec8d5e7aedc873c89c21bf58adafe23d40d322d79df626385fa2af8aa9 |
-| C:\Users\01ere\Desktop\ | 7f4057e3d359b71acc8620c66a5e7ab88473483e0d2c704c0f4b713bfae5a30d |
-+-------------------------+------------------------------------------------------------------+
++-----------------------------+------------------------------------------------------------------+
+|             FILE            |                               HASH                               |
++-----------------------------+------------------------------------------------------------------+
+| C:\Users\01ere\Desktop\2.py | a9b200fcb53039e922253aeffbf436ba07eced90cedabceb9d75a13402dcc4c0 |
++-----------------------------+------------------------------------------------------------------+

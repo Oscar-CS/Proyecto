@@ -17,55 +17,55 @@ def hash(filePath, hashAlgorithm):
     tableFormat.field_names = ["FILE", "HASH"]
 	
     def blake2b(fl: str):
-        hashing = hashlib.blake2b(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.blake2b(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def blake2s(fl: str):
-        hashing = hashlib.blake2s(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.blake2s(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def md5(fl: str):
-        hashing = hashlib.md5(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.md5(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha1(fl: str):
-        hashing = hashlib.sha1(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha1(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha224(fl: str):
-        hashing = hashlib.sha224(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha224(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha256(fl: str):
-        hashing = hashlib.sha256(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha256(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha3_224(fl: str):
-        hashing = hashlib.sha3_224(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha3_224(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha3_256(fl: str):
-        hashing = hashlib.sha3_256(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha3_256(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha3_384(fl: str):
-        hashing = hashlib.sha3_384(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha3_384(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha3_512(fl: str):
-        hashing = hashlib.sha3_512(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha3_512(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def sha512(fl: str):
-        hashing = hashlib.sha512(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.sha512(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def shake_128(fl: str):
-        hashing = hashlib.shake_128(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.shake_128(bytes(fl, "utf-8")).hexdigest()
         return hashing
 
     def shake_256(fl: str):
-        hashing = hashlib.shake_256(bytes(file, "utf-8")).hexdigest()
+        hashing = hashlib.shake_256(bytes(fl, "utf-8")).hexdigest()
         return hashing
         
     switch_case = {
@@ -102,7 +102,7 @@ def hash(filePath, hashAlgorithm):
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(2, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "MD5":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
@@ -114,61 +114,61 @@ def hash(filePath, hashAlgorithm):
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(4, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA224":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(5, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA256":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(6, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA3_224":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(7, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA3_256":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(8, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA3_384":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(9, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA3_512":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(10, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHA512":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(11, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHAKE_128":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(12, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     elif hashAlgorithm == "SHAKE_256":
                         archive.write('Algorithm: '+ hashAlgorithm + '\n')
                         for file in os.listdir(filePath):
                             parsedCommand = switch(13, file)
-                            tableFormat.add_row([filePath, parsedCommand])
+                            tableFormat.add_row([file, parsedCommand])
                         archive.write(str(tableFormat))
                     else: 
                         print("Argumento erroneo")
